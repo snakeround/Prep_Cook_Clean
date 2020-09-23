@@ -1,9 +1,3 @@
-
-
-  <?php
-    
-    echo 'Hello World';
-
-  ?>
+<?php include_once("index.html"); ?>
 
 
