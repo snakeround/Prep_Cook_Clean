@@ -7,12 +7,28 @@ div {
 }
 
 .header {
-  display: flex;
-  justify-content: center;    
-  background-color: DodgerBlue;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.creativegroupinc.com/wp-content/uploads/2017/07/dinner-table-banner-1200x374.jpg");
+
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-#logo {
+#text {
+  text-align: center;
+  font-size: 60px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*#logo {
       
   background-color: #f1f1f1;
   width: 100px;
@@ -20,22 +36,22 @@ div {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-}
+}*/
 
 .navbar {
   display: flex;
   justify-content: center;    
-  background-color: DodgerBlue;
+  background-color: #99b6bd;
 }
 
 .main {
   display: flex;
   flex-flow: row wrap;   
-  background-color: DodgerBlue;
+  background-color: #99b6bd;
 }
 
 #content {
-  background-color: #f1f1f1;
+  background-color: #bdb299;
   width: 100px;
   margin: 10px;
   text-align: center;
@@ -46,9 +62,5 @@ div {
 .footer {
   display: flex;
   justify-content: left;
-  background-color: DodgerBlue;
-}
-
-#cr {
-    float: right;
+  background-color: #99b6bd;
 }
