@@ -4,7 +4,6 @@ CREATE TABLE user (
     id VARCHAR(255) NOT NULL PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
     pass VARCHAR(255) NOT NULL,
-    access INTEGER(1)
 );
 
 CREATE TABLE recipes (
