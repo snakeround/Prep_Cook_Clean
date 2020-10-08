@@ -24,12 +24,14 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
     font-size: 60px;
     margin-bottom: 20px;
     margin-top: 20px;
+    width: 100%;
 }
 
 #text {
   text-align: center;
   font-size: 80px; 
   position: absolute;
+  
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -52,7 +54,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 .main {
   
   display: flex;
-  flex-flow: row wrap;   
+  /*flex-flow: row wrap; */
+  flex-wrap:wrap;
+  flex: 1 0 auto;
 
 }
 
